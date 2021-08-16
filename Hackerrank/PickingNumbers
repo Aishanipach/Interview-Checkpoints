@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
-
+#include <vector>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
 string ltrim(const string &);
@@ -7,23 +9,19 @@ string rtrim(const string &);
 vector<string> split(const string &);
 
 int pickingNumbers(vector<int> a) {
-    vector<int>::iterator i,it;
     
-    int iter=0, len=0;
-    
-    for(i=a.begin();i<a.end();i++)
-    {
-        for(it=i+1;it<=a.end();it++)
-       {
-           if(*i==*it|| *i==*(it)+1 ||*i==*(it)-1)
-           {
-               len++;
-               cout<<*i<<" "<<*it<<endl;
-           }
-           
-       }
+    sort(a.begin(),a.end());
+    cout<<"started"<<endl;
+    vector<int> counts;
+    for (int i = 0; i < a.size(); ++i) {
+        for (int j = i+1; j < a.size(); ++j) {
+            if (abs(a[j] - a[i]) <= 1)
+                ++counts[i];
+            else
+                break;
+        }
     }
-    return len;
+    return *max_element(counts.begin(),counts.end());
 }
 
 int main()
@@ -95,3 +93,4 @@ vector<string> split(const string &str) {
 
     return tokens;
 }
+ 
