@@ -1,30 +1,49 @@
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-    int n;
-    cin >> n;
-    int a[n];
-    for(int i=0;i<n;i++){
-        cin>>a[i];
-    }
-    int max=0,c=0,ele,max_n=0;
-    sort(a,a+n);
-    for(int i=0;i<n;i++){
-        c=0;
-        for(int j=i+1;j<n;j++){
-            if(abs(a[i]-a[j])<=1){
-                c++;
-                if(c>max_n){
-                max_n=c;
-            }
-            }
-            else{c=0;
-                break;
-            }
+#include <iostream>
+#include <algorithm>
+#include <vector>
+int picking_numbers(std::vector<int>& array)
+{
+    std::sort(array.begin(), array.end());
+
+    int result = 0;
+    int count = 1;
+    int subarray_first_element = array[0];
+
+    for (int i = 1; i < array.size(); ++i)
+    {
+        if (subarray_first_element == array[i] || subarray_first_element + 1 == array[i])
+        {
+            count++;
         }
-        //cout<<maxi<<endl;
+        else
+        {
+            if (count > result)
+            {
+                result = count;
+            }
+            count = 1;
+            subarray_first_element = array[i];
+        }
     }
-    cout<<max_n+1<<endl;
-    return 0;
-    
+
+    if (count > result)
+    {
+        result = count;
+    }
+    return result;
+}
+
+int main()
+{
+    int size_of_array;
+    std::cin >> size_of_array;
+    std::vector<int> array(size_of_array);
+
+    for (int i = 0; i < size_of_array; ++i)
+    {
+        std::cin >> array[i];
+    }
+
+    int max_count = picking_numbers(array);
+    std::cout << max_count << "\n";
 }
