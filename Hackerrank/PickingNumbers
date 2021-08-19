@@ -1,17 +1,20 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
-int picking_numbers(std::vector<int>& array)
+using namespace std;
+
+
+int picking_numbers(vector<int>& a)
 {
-    std::sort(array.begin(), array.end());
+    sort(a.begin(), a.end());
 
     int result = 0;
     int count = 1;
-    int subarray_first_element = array[0];
+    int subarray_first_element = a[0];
 
-    for (int i = 1; i < array.size(); ++i)
+    for (int i = 1; i < a.size(); ++i)
     {
-        if (subarray_first_element == array[i] || subarray_first_element + 1 == array[i])
+        if (subarray_first_element == a[i] || subarray_first_element + 1 == a[i])
         {
             count++;
         }
@@ -22,7 +25,7 @@ int picking_numbers(std::vector<int>& array)
                 result = count;
             }
             count = 1;
-            subarray_first_element = array[i];
+            subarray_first_element = a[i];
         }
     }
 
@@ -36,14 +39,14 @@ int picking_numbers(std::vector<int>& array)
 int main()
 {
     int size_of_array;
-    std::cin >> size_of_array;
-    std::vector<int> array(size_of_array);
+    cin >> size_of_array;
+    vector<int> array(size_of_array);
 
     for (int i = 0; i < size_of_array; ++i)
     {
-        std::cin >> array[i];
+        cin >> array[i];
     }
 
     int max_count = picking_numbers(array);
-    std::cout << max_count << "\n";
+    cout << max_count << "\n";
 }
