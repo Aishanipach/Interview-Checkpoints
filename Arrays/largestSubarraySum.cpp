@@ -1,4 +1,4 @@
-//Kadane's Algo
+//Application of Kadane's Algo
 
 class Solution{
     public:
@@ -7,8 +7,8 @@ class Solution{
     //Function to find the sum of contiguous subarray with maximum sum.
     long long maxSubarraySum(int arr[], int n){
         
-        long long max_sum_current=arr[0];
-        long long max_ends=arr[0];
+        long long max_sum_current=arr[0];  //Largest sum till the current element + current element 
+        long long max_ends=arr[0];  //Largest sum of subarray (answer)
         
         for(int i=1;i<n;i++){
             max_sum_current+=arr[i];
