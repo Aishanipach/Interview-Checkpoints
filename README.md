@@ -1,4 +1,8 @@
 # C++ Code Dump
-### This repo has my submissions to common questions from various coding sites:
-1. Hackerrank (PS-> Algorithm)
-2. Leetcode
+#### Topic Wise Submissions🌟️ (2022):
+### 1. [Arrays](https://github.com/Aishanipach/Cpp-Codes/tree/main/Arrays)
+<br>
+
+#### Submissions from various coding sites (2021):
+### 1. [Hackerrank solutions](https://github.com/Aishanipach/Cpp-Codes/tree/main/Hackerrank)
+### 2. [Leetcode solutions](https://github.com/Aishanipach/Cpp-Codes/tree/main/Leetcode)
