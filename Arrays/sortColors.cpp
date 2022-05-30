@@ -3,8 +3,15 @@ public:
     void sortColors(vector<int>& nums) {
         
        
-        int c0=count(nums.begin(), nums.end(), 0);
-       int c1=count(nums.begin(), nums.end(), 1);
+        int c0=0;
+        int c1=0;
+        
+        for(int k=0;k<nums.size();k++){
+            if(nums[k]==0)
+                c0++;
+            else if(nums[k]==1)
+                c1++;
+        }
         
         
         for(int i=0;i<nums.size();i++){
