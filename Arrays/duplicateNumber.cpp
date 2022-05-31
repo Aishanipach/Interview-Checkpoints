@@ -1,4 +1,4 @@
-https://leetcode.com/problems/find-the-duplicate-number/submissions/
+//leetcode.com/problems/find-the-duplicate-number/solution/
 
 class Solution {
 public:
@@ -9,5 +9,23 @@ public:
                 return nums[i];
         }
         return 0;
+    }
+};
+
+
+// Recursion:
+
+class Solution {
+public:
+    int store(vector<int>& nums, int cur) {
+        if (cur == nums[cur])
+            return cur;
+        int nxt = nums[cur];
+        nums[cur] = cur;
+        return store(nums, nxt);
+    }
+    
+    int findDuplicate(vector<int>& nums) {
+        return store(nums, 0);
     }
 };
