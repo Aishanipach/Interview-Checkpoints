@@ -1,6 +1,7 @@
 # C++ Code Dump 📑️
 #### Topic Wise Submissions🌟️ (2022):
 ### 1. [Arrays](https://github.com/Aishanipach/Cpp-Codes/tree/main/Arrays)
+### 2. [Linked List](https://github.com/Aishanipach/Cpp-Codes/tree/main/LinkedList)
 <br><br>
 
 #### Submissions from various coding sites (2021):
