@@ -3,6 +3,7 @@
 ### 1. [Arrays](https://github.com/Aishanipach/Cpp-Codes/tree/main/Arrays)
 ### 2. [Linked List](https://github.com/Aishanipach/Cpp-Codes/tree/main/LinkedList)
 ### 3. [Greedy Approach](https://github.com/Aishanipach/Cpp-Codes/tree/main/Greedy)
+### 4. [Recursion](https://github.com/Aishanipach/Cpp-Codes/tree/main/Recursion)
 <br><br>
 
 #### Submissions from various coding sites (2021):
