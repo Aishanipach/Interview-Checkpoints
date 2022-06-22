@@ -1,5 +1,6 @@
+//Not optimum sol
 
-	double multiply(double num, int n) {
+double multiply(double num, int n) {
     double ans = 1.0;
     while(n--) 
         ans *= num;
