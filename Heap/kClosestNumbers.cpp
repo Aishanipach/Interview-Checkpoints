@@ -13,7 +13,7 @@ class Solution{
     }
     
     while(maxheap.size()){
-      cout<<maxheap.top.second<<" ";
+      cout<<maxheap.top().second()<<" ";
       maxheap.pop();
     }
    
