@@ -21,7 +21,7 @@ class Solution{
       minheap.pop();
       
       cost+=first+second;
-      minheap.push(cost);
+      minheap.push(first + second);
     }
     
     cout<<cost;
