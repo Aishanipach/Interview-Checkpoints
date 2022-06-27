@@ -4,6 +4,10 @@
 ### 2. [Linked List](https://github.com/Aishanipach/Cpp-Codes/tree/main/LinkedList)
 ### 3. [Greedy Approach](https://github.com/Aishanipach/Cpp-Codes/tree/main/Greedy)
 ### 4. [Recursion](https://github.com/Aishanipach/Cpp-Codes/tree/main/Recursion)
+### 5. [Binary Search](https://github.com/Aishanipach/Cpp-Codes/tree/main/BinarySearch)
+### 6. [Heap](https://github.com/Aishanipach/Cpp-Codes/tree/main/Heap)
+### 7. [Stacks & Queues](https://github.com/Aishanipach/Cpp-Codes/tree/main/Stacks%26Queues)
+
 <br><br>
 
 #### Submissions from various coding sites (2021):
