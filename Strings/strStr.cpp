@@ -1,55 +1,64 @@
 //String match
 //KMP Algo>> Rabin Karp
-
-int strStr(string haystack, string needle) {
-        int n=haystack.length();
-        int m=needle.length();
-        int i=1,j=0;
-        vector<int> pa(m,0);
-        //compute prefix array
-        while(i<m)
-        {
-            if(needle[i]==needle[j])
-            {
-                pa[i]=j+1;i++;j++;
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        int m=haystack.length();
+        int n=needle.length();
+        
+        vector<int> pa(n,0);
+        
+        int i=1, j=0;
+        
+        while(i<n){
+            
+            if(needle[i]==needle[j]){
+                pa[i]=j+1;
+                i++;
+                j++;
             }
-            else {
-                if(j!=0)
-                {
+            
+            else{
+                
+                if(j!=0){
                     j=pa[j-1];
                 }
-                else
-                {
+                
+                else{
                     pa[i]=0;
                     i++;
                 }
             }
         }
-        i=0;j=0;
-        while(i<n && j<m)
-        {
-            if(haystack[i]==needle[j])
-            {
-                i++;j++;
+        
+        i=0;
+        j=0;
+        
+        while(i<m && j<n){
+            if(needle[j]==haystack[i]){
+                i++;
+                j++;
+                
             }
-            else if(haystack[i]!=needle[j])
-            {
-                if(j!=0)
-                {
+            
+            else if(needle[j]!=haystack[i]){
+                if(j!=0){
                     j=pa[j-1];
+                    
                 }
-                else
-                {
+                
+                else{
                     i++;
                 }
             }
             
+        
+       
         }
         
-        if(j==m)
-        {
-            int index=i-m;
-            return index;
-        }
-        return -1;
+        if(j==n)
+            return i-n;
+          return -1;   
+            
     }
+};
