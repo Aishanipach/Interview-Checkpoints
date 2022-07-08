@@ -7,7 +7,7 @@
 ### 5. [Binary Search](https://github.com/Aishanipach/Cpp-Codes/tree/main/BinarySearch)
 ### 6. [Heap](https://github.com/Aishanipach/Cpp-Codes/tree/main/Heap)
 ### 7. [Stacks & Queues](https://github.com/Aishanipach/Cpp-Codes/tree/main/Stacks%26Queues)
-
+### 8. [Strings]()
 <br><br>
 
 #### Submissions from various coding sites (2021):
