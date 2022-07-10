@@ -10,4 +10,5 @@ visual representation of different methods and algos over them:
 
 
 ### 2. Left view of the Tree
-![image](https://user-images.githubusercontent.com/59767187/178140073-fec93875-85f5-4a2c-93d2-917c9fdd10f5.png)
+![image](https://user-images.githubusercontent.com/59767187/178140101-d2e1c1f7-b987-4d5b-a89b-11f56308fc19.png)
+
