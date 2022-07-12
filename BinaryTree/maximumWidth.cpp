@@ -9,6 +9,11 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+
+//Counting in NULL values too here
+
+
 class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
