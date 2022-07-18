@@ -31,8 +31,8 @@ Fig 1. Postman playground for developers to try out different requests.
 
 **Major use cases provided in the workspace are:**
 
-- Create basic job with foundation schema
-- Create basic jobs with RCSS
+- Create a basic job with foundation schema
+- Create a basic jobs with RCSS
 -Create promoted job with promoted jobs extension schema
 
 ⭐[Find sample request body and API header here](https://docs.microsoft.com/en-us/linkedin/talent/job-postings/api/create-jobs)
