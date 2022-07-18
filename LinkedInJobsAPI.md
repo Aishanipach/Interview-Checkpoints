@@ -1,12 +1,12 @@
 # Get started with LinkedIn Jobs API
 
 ## Table of Contents
-### 1. [**What does it do?**](#example)
-### 2. [**Let's begin**](#example2) </br>
+### 1. [**What does it do?**](https://github.com/Aishanipach/Cpp-Codes/blob/main/LinkedInJobsAPI.md#1-what-does-it-do-1)
+### 2. [**Let's begin**](https://github.com/Aishanipach/Cpp-Codes/edit/main/LinkedInJobsAPI.md#2-lets-begin-) </br>
    1. Get Postman </br>
    2. Plan Template- Microsoft Docs
-### 3. [**Already a partner, what's next?**](#third-example)
-### 4. [**Trying it out!**](#fourth-examplehttpwwwfourthexamplecom) </br>
+### 3. [**Already a partner, what's next?**](https://github.com/Aishanipach/Cpp-Codes/edit/main/LinkedInJobsAPI.md#3-already-a-partner-whats-next-1)
+### 4. [**Trying it out!**][(#fourth-examplehttpwwwfourthexamplecom)](https://github.com/Aishanipach/Cpp-Codes/edit/main/LinkedInJobsAPI.md#4trying-it-out) </br>
    1. Getting member ID </br>
    2. Post an article
 
