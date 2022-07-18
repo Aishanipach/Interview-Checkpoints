@@ -28,13 +28,14 @@ Fig 1. Postman playground for developers to try out different requests.
 - Explore the use cases and resources.
 
 <br/>
+
 **Major use cases provided in the workspace are:**
 
 - Create basic job with foundation schema
 - Create basic jobs with RCSS
 -Create promoted job with promoted jobs extension schema
 
-[Find sample request body and API header here](https://docs.microsoft.com/en-us/linkedin/talent/job-postings/api/create-jobs)
+⭐[Find sample request body and API header here](https://docs.microsoft.com/en-us/linkedin/talent/job-postings/api/create-jobs)
 
 ### 2. Planning Template- Microsoft Docs
 To plan out the development lifescycle for this specific API use cases, Microsoft docs provides a proper timeline. It is recommended to follow this roadmap.
@@ -64,7 +65,7 @@ To plan out the development lifescycle for this specific API use cases, Microsof
  
  - Create a sub application for posting jobs before starting with integration. 
 
-This way you can work with API keys for each individual customer using the [Provisioning API](https://docs.microsoft.com/en-us/linkedin/talent/middleware-platform/provisioning-api) & application provided by Linkedin resources
+⭐ This way you can work with API keys for each individual customer using the [Provisioning API](https://docs.microsoft.com/en-us/linkedin/talent/middleware-platform/provisioning-api) & application provided by Linkedin resources
 
 ```
 POST  https://api.linkedin.com/v2/provisionedApplications
