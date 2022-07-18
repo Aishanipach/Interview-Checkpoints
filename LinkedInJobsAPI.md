@@ -86,6 +86,9 @@ Fig 2. Trying to create new Post request (via Microsoft Docs)
 If you want to post an article make the following changes to the body:
 
 ```JSON
+{
+"author":"urn:li:person:YOUR_ID",
+"lifecycleState":"PUBLISHED",
 "specificContent":{
   "com.linkedin.ugc.ShareContent":{
     "shareCommentary":{
@@ -104,5 +107,6 @@ If you want to post an article make the following changes to the body:
      "visibility":{
         "com.linkedin.ugc.MemberNetworkVisibility:"CONNECTIONS"
   }
+}
 ```
 
