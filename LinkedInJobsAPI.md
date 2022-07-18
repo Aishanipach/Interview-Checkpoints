@@ -74,3 +74,13 @@ POST  https://api.linkedin.com/v2/provisionedApplications
 - Store the API key(customer id created using Provision API), Linkedin Developer Application id for each customer and in case of promoted jobs, keep the companyID too. 
 - You can use existing customer API keys for [customers part of recruiting system connect](https://docs.microsoft.com/en-us/linkedin/talent/recruiter-system-connect/recruiter-system-connect)
 
+
+## Trying it out
+
+Take the retrieved authorization token:
+![image](https://user-images.githubusercontent.com/59767187/179511254-8c6805df-b01e-4d3a-9b2b-a7896df67fb3.png)
+
+Fig 2. Trying to create new Post request (via Microsoft Docs)
+
+If you want to post an article make the following changes
+
