@@ -77,10 +77,32 @@ POST  https://api.linkedin.com/v2/provisionedApplications
 
 ## Trying it out
 
-Take the retrieved authorization token:
+
+Take the retrieved authorization token (member ID):
 ![image](https://user-images.githubusercontent.com/59767187/179511254-8c6805df-b01e-4d3a-9b2b-a7896df67fb3.png)
 
 Fig 2. Trying to create new Post request (via Microsoft Docs)
 
-If you want to post an article make the following changes
+If you want to post an article make the following changes to the body:
+
+```JSON
+"specificContent":{
+  "com.linkedin.ugc.ShareContent":{
+    "shareCommentary":{
+      "text":"Learning more about Linkedin by reading the LinkedIn Blog"
+      },
+      "shareMediaCategory:"ARTICLE",
+      "media":[
+        {
+          "status":"READY",
+          "originalUrl":"https://blog.linkedin.com/"
+        }
+       ]
+      }
+     },
+     
+     "visibility":{
+        "com.linkedin.ugc.MemberNetworkVisibility:"CONNECTIONS"
+  }
+```
 
