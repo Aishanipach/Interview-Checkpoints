@@ -6,7 +6,7 @@
    1. Get Postman </br>
    2. Plan Template- Microsoft Docs
 ### 3. [**Already a partner, what's next?**](https://github.com/Aishanipach/Cpp-Codes/edit/main/LinkedInJobsAPI.md#3-already-a-partner-whats-next-1)
-### 4. [**Trying it out!**][(#fourth-examplehttpwwwfourthexamplecom)](https://github.com/Aishanipach/Cpp-Codes/edit/main/LinkedInJobsAPI.md#4trying-it-out) </br>
+### 4. [**Trying it out!**](https://github.com/Aishanipach/Cpp-Codes/edit/main/LinkedInJobsAPI.md#4trying-it-out) </br>
    1. Getting member ID </br>
    2. Post an article
 
