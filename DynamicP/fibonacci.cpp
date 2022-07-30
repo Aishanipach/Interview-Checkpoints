@@ -18,7 +18,7 @@ class Solution:
   }
   
   vector<int> solve(n){
-    vector<int> dp(n,-1);
+    vector<int> dp(n+1,-1);
     
     fibo(n, dp);
     return dp;
