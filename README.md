@@ -9,6 +9,7 @@
 ### 7. [Stacks & Queues](https://github.com/Aishanipach/Cpp-Codes/tree/main/Stacks%26Queues)
 ### 8. [Strings](https://github.com/Aishanipach/Cpp-Codes/tree/main/Recursion)
 ### 9. [Binary Tree](https://github.com/Aishanipach/Cpp-Codes/tree/main/BinaryTree)
+### 10. [Dynamic Programming](https://github.com/Aishanipach/Cpp-Codes/tree/main/DynamicP)
 <br><br>
 
 #### Submissions from various coding sites (2021):
