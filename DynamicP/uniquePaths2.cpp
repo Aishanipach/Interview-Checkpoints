@@ -1,45 +1,37 @@
 #include<bits/stdc++.h>
 int mod= (int)(1e9+7);
 int findPathsTwo(int n, int m, vector<vector<int>> &mat, vector<vector<int>> &dp){
-    
+    vector<int> prev(m,0);
     for(int i = 0;i<n;i++){
+        vector<int> temp(m,0);
         for(int j=0;j<m;j++){
             
             if(mat[i][j]==-1)
             {
-                dp[i][j]=0;
+                temp[j]=0;
 //             cout<<dp[i][j]<<" ";
                 
                  continue;
             }
             
             if(i==0 && j==0){
-                dp[i][j]=1;
+                temp[j]=1;
                 continue;
             }
             
             int up=0, left=0;
             
             if(i>0)
-            up=dp[i-1][j];
+            up=prev[j];
             
             if(j>0)
-            left=dp[i][j-1];
+            left=temp[j-1];
             
-            dp[i][j]=(up+left)%mod;
+            temp[j]=(up+left)%mod;
 //             cout<<dp[i][j]<<" ";
             }
-//             cout<<endl;
+            prev=temp;
         }
-    return dp[n-1][m-1];
+    return prev[m-1];
     }
 
-
-
-
-int mazeObstacles(int n, int m, vector< vector< int> > &mat) {
-    
-    vector<vector<int> > dp(n+1,vector<int>(m+1,INT_MIN));
-//     return mazeObstaclesUtil(n,m, mat, dp);
-    return findPathsTwo(n, m, mat, dp);
-}
