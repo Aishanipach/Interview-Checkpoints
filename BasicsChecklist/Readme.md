@@ -2,4 +2,4 @@
 - [ ] Merge Sort
 - [ ] Binary Search
 - [ ] Greedy Kanpsack
-- [ ] Operating system basics
+- [x] Operating system basics
