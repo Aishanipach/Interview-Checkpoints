@@ -7,3 +7,4 @@
 - [ ] Cloud basics
      - NGINX
      - Fog and Edge
+- [ ] Ceil & Floor
