@@ -4,3 +4,6 @@
 - [ ] Greedy Kanpsack
 - [x] Operating system basics
 - [ ] SQL Queries Notes
+- [ ] Cloud basics
+     NGINX
+     Fog and Edge
