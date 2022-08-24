@@ -8,3 +8,5 @@
      - NGINX
      - Fog and Edge
 - [ ] Ceil & Floor
+- [ ] OOPS
+- DBMS
