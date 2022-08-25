@@ -52,6 +52,8 @@ that we want to decide which function to be called during compile time accrding 
 
 - Pure virtual functions are the one which are assigned zero. It has no use in base class but must be implemented by all base classes.
 
+ live.interviews@joinsuperset.com
+
 - An **abstract class** is one with atleast one **pure virtual function**
 
 - A structure has no constructor or destructor & does not support inheritance.
