@@ -58,5 +58,6 @@ that we want to decide which function to be called during compile time accrding 
 
 - Constructor overloading provides a way for us to define an object in more than one way.
 
-- 
-- 
+- Friend function can access private and protected 
+
+- Public is default. Private members cannot be accesed by derived classes, privately inherited class makes protected and public methods be inherited as private only. 
