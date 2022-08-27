@@ -6,7 +6,7 @@
 - [ ] SQL Queries Notes
 - [ ] Cloud basics
      - NGINX
-     - Fog and Edge
+     - Fog and Edge: [Fog VS Edge](https://www.winsystems.com/cloud-fog-and-edge-computing-whats-the-difference/)
 - [ ] Ceil & Floor
 - [ ] OOPS
 - [ ] DBMS
