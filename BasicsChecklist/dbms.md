@@ -16,4 +16,9 @@
 - DBMS supports ACID property- Atomicity, Consistent, Isolated & Durability. 
     - Atomicity: All changes to the data will be made completely or not at all.
     - Consistent: Data must be consistent before and after transaction.
-    - Isolated: No other process 
+    - Isolated: No other process can effect the ongoing transactions
+    - Durable: The changes must persist once made.
+
+- Data warehousing is a centralised data management process where data from all resources comes to one place and all this data is used in decision- making in an organisation.
+
+- 
