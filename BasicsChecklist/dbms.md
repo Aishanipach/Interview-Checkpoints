@@ -29,4 +29,6 @@
 
 - Normalisation is by dividing data in different tables, while denormalisation using for example, JOIN IN, does the opposite.
 
+- An entity set is represented by a rectangle in a diagram.
+
 - 
