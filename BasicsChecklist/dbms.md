@@ -22,3 +22,11 @@
 - Data warehousing is a centralised data management process where data from all resources comes to one place and all this data is used in decision- making in an organisation.
 
 - An E-R model referes to a diagrammatic approach to db design by taking account of a real- life entities and establishing relationship between them.
+
+- TRUNCATE is like DELETE, only it removes all the data.
+
+- In a **shared lock**, for reading and multiple transactions can access the resource while in **exclusive lock** is about performing a write operation.
+
+- Normalisation is by dividing data in different tables, while denormalisation using for example, JOIN IN, does the opposite.
+
+- 
