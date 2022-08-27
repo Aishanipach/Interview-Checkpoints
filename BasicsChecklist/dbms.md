@@ -12,3 +12,8 @@
 - SQL vs PL/SQL
     - SQL is data oriented language. SQL is used to write queries, create and execute DDL and DML statments. 
     - PL/SQL is application oriented language. PL/SQL is used to write program blocks, functions, procedures, triggers and packages. 
+
+- DBMS supports ACID property- Atomicity, Consistent, Isolated & Durability. 
+    - Atomicity: All changes to the data will be made completely or not at all.
+    - Consistent: Data must be consistent before and after transaction.
+    - Isolated: No other process 
