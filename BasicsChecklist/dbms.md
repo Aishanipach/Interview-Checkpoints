@@ -21,4 +21,4 @@
 
 - Data warehousing is a centralised data management process where data from all resources comes to one place and all this data is used in decision- making in an organisation.
 
-- 
+- An E-R model referes to a diagrammatic approach to db design by taking account of a real- life entities and establishing relationship between them.
