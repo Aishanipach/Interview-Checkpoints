@@ -31,4 +31,11 @@
 
 - An entity set is represented by a rectangle in a diagram.
 
-- 
+- **SUPER KEY** -> **CANDIDATE KEY** -> **PRIMARY KEY**
+    - Super key: Set of attributes that can uniquely identify a tuple.
+    - Candidate key: Set of attributes used to define a specific table, one of which is also considered as primary key.
+    - Primary key: It uniquely identifies a tuple, does not allow NULL as a value.
+    - Unique key: primary key but with allowance of NULL value.
+    - Alternate keys: All the keys from candidate keys which are not chosen to be primary key.
+    - Foreign key: Keys which have only common value as in another table.
+    - Composite key: Set of keys which can uniquely identify a tuple together are composite keys.
