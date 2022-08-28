@@ -64,5 +64,11 @@ X->Y, Y->Z and Xis not ->Y.
     - Clustered alter the way a table handles data & is faster
     - Non-clustered do not alter a table but create seperate objects 
 
+    (Fill factor is to set percentage of space left in a leaf level page)
+
 - Intension is referred to table structure/ data schema. Cannot be altered
 - Extension is number of tuples available at any instance and can be altered. As it is at a specific time it is known as snapshot of the table.
+
+- **Data independence** means data is independent of of data retrieval algorithms or structure.
+
+
