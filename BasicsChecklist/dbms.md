@@ -59,3 +59,7 @@ X->Y, Y->Z and Xis not ->Y.
 - Triggers are stored procedures that are not called by users, do not accept arguments and return values, are fired only due to certain events and cannot be scheduled.
 
 - Stored procedures are pieces of code that can be reused, can be called by users, accept args and return values, allow transactions and can be scheduled.
+
+- Indexes are data structures that improve the process of data retrieval. Clustered and Non - clustered.
+    - Clustered alter the way a table handles data & is faster
+    - Non-clustered do not alter a table but create seperate objects 
