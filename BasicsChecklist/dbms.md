@@ -50,3 +50,10 @@
 - **Query optimization** is finding a way to evaluate queries in least estimated cost when there are different algorithms in play.
 
 - **Concurrency control** is to manage multiple transactions in a database so that the integrity can be controlled.
+
+- Functional dependency must  be a direct relation between two attributes like relation R1 where X->Y, Y is related to X. Whereas, transitiv erelationship is between more than two attributes, for example relation R1 where X->Z only when:
+X->Y, Y->Z and Xis not ->Y.
+
+- A **checkpoint** in databse would be when all the previous data logs are removed and stored on the storage disk. they can be used to recover the data logs upto the point of crash.
+
+- 
