@@ -98,3 +98,19 @@ X->Y, Y->Z and Xis not ->Y.
 - Removing left space and right space
     `LTRIM & RTRIM`
     ![image](https://user-images.githubusercontent.com/59767187/187092025-c25b5ef7-cdc6-4ae5-aa55-6c27c04b0b4b.png)
+    
+ - Write an SQL query to show only odd rows from a table.
+    ``` SQL
+        select * from( 
+        SELECT col1, col2, ROW_NUMBER() OVER(ORDER BY col1 DESC) AS 'RowNumber', 
+        FROM table1
+        ) d where (RowNumber % 2) = 1 
+    ```
+- Clone a table with data
+    ``` SELECT * INTO WClone FROM Worker ```
+- Clone a table without data
+    ``` SELECT * INTO WClone FROM Worker WHERE 1=0 ```
+- Write an SQL query to show the top n (say 10) records of a table.
+    ``` SELECT * FROM worker ORDER BY Salary LIMIT 10 ```
+
+- 
