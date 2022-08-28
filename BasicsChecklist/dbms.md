@@ -34,6 +34,8 @@
 
 - Normalisation is by dividing data in different tables, while denormalisation using for example, JOIN IN, does the opposite.
 
+- Normalisation techniques are: **1NF** non repeating groups within a row, **2NF** where columns are dependent on whole primary key & **3NF** Solely dependent on primary key.
+
 - An entity set is represented by a rectangle in a diagram.
 
 - **SUPER KEY** -> **CANDIDATE KEY** -> **PRIMARY KEY**
