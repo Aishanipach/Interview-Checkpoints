@@ -113,4 +113,4 @@ X->Y, Y->Z and Xis not ->Y.
 - Write an SQL query to show the top n (say 10) records of a table.
     ``` SELECT * FROM worker ORDER BY Salary LIMIT 10 ```
 
-- 
+- 34
