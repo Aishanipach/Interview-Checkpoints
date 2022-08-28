@@ -92,3 +92,9 @@ X->Y, Y->Z and Xis not ->Y.
 
 - Query to retrive last day of next month 
     `SELECT LAST_DATE (ADD_MONTHS (SYS_DATE, 1) FROM DUAL`
+    
+- Get a letters position, case sensitive
+    `SELECT INSTR(FIRST_NAME, binary'a') FROM Worker
+- Removing left space and right space
+    `LTRIM & RTRIM`
+    ![image](https://user-images.githubusercontent.com/59767187/187092025-c25b5ef7-cdc6-4ae5-aa55-6c27c04b0b4b.png)
