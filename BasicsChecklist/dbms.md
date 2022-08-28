@@ -4,6 +4,7 @@
     - DQl – Data Query Language
     - DML – Data Manipulation Language
     - DCL – Data Control Language
+    - TCL - Transaction Control Language
 
 - SQL vs NoSQL
     - SQL databases can be scaled horizontally as well, though sharding or partitioning logic is often the user’s onus and not well supported.
@@ -72,3 +73,18 @@ X->Y, Y->Z and Xis not ->Y.
 - **Data independence** means data is independent of of data retrieval algorithms or structure.
 
 
+
+## SQL QUERIES
+
+- UNION: Combines the result of two or more SELECT queries with distinct values 
+- UNION ALL: Combines the result of two or more SELECT queries with duplicate values.
+
+- CLAUSE to filter rows. WHERE & HAVING
+    - WHERE is to mention a condition and used before a group by condition 
+    - HAVE is used with GROUP BY 
+
+- _ for single character matching and % for multiple character matching
+
+
+
+- 
