@@ -86,5 +86,6 @@ X->Y, Y->Z and Xis not ->Y.
 - _ for single character matching and % for multiple character matching
 
 
+- JOIN clause is to combine rows from two or more tables based on a common key- inner join, right join, left join & full join 
 
-- 
+- A **view in sql** is a single table derived from other table.
