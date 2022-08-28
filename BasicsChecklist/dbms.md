@@ -23,6 +23,8 @@
 
 - An E-R model referes to a diagrammatic approach to db design by taking account of a real- life entities and establishing relationship between them.
 
+- Aggregation refers to a feature of E-R model which allows a dataset relation to participate in another set relation.
+
 - TRUNCATE is like DELETE, only it removes all the data.
 
 - In a **shared lock**, for reading and multiple transactions can access the resource while in **exclusive lock** is about performing a write operation.
