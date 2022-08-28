@@ -39,3 +39,6 @@
     - Alternate keys: All the keys from candidate keys which are not chosen to be primary key.
     - Foreign key: Keys which have only common value as in another table.
     - Composite key: Set of keys which can uniquely identify a tuple together are composite keys.
+
+- **Query optimization** is finding a way to evaluate queries in least estimated cost when there are different algorithms in play.
+- 
