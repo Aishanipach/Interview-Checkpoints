@@ -89,3 +89,6 @@ X->Y, Y->Z and Xis not ->Y.
 - JOIN clause is to combine rows from two or more tables based on a common key- inner join, right join, left join & full join 
 
 - A **view in sql** is a single table derived from other table.
+
+- Query to retrive last day of next month 
+    `SELECT LAST_DATE (ADD_MONTHS (SYS_DATE, 1) FROM DUAL`
