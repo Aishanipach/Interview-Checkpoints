@@ -21,7 +21,10 @@
 
 - Data warehousing is a centralised data management process where data from all resources comes to one place and all this data is used in decision- making in an organisation.
 
-- An E-R model referes to a diagrammatic approach to db design by taking account of a real- life entities and establishing relationship between them.
+- An E-R model or entity relationship model refers to a diagrammatic approach to db design by taking account of a real- life entities and establishing relationship between them.
+    - Entity is a real world object
+    - Entity types are collection of entities with having same attributes.
+    - Entity set is a collection of entuty types.
 
 - Aggregation refers to a feature of E-R model which allows a dataset relation to participate in another set relation.
 
@@ -43,4 +46,5 @@
     - Composite key: Set of keys which can uniquely identify a tuple together are composite keys.
 
 - **Query optimization** is finding a way to evaluate queries in least estimated cost when there are different algorithms in play.
-- 
+
+- **Concurrency control** is to manage multiple transactions in a database so that the integrity can be controlled.
