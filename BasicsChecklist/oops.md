@@ -60,4 +60,36 @@ that we want to decide which function to be called during compile time accrding 
 
 - Friend function can access private and protected 
 
-- Public is default. Private members cannot be accesed by derived classes, privately inherited class makes protected and public methods be inherited as private only. 
+- Public is default. Private members cannot be accesed by derived classes, privately inherited class makes protected and public methods be inherited as private only.
+
+- **Interface** is implemented to declare methods but not implement them in OOPs. the interface provides description of the purpose of an object and its properties.        Only function prototypes are allowed in interfaces. 
+  ```cpp
+  public interface Vehicle 
+             { 
+                 // NO data VARIABLES are allowed in an interface 
+                 // only function PROTOTYPES 
+ 
+ 
+                 /** 
+                  * Comments... 
+                  * Anything that wants to be a "Vehicle" must, implement this function 
+                  */ 
+                 function start_engine() : void; 
+ 
+              
+             } 
+  ```
+  
+ - **Data abstraction** helps at design level and hides certain implementation to show only important aspects. 
+ - **Encapsulation** works at implementatin level and bundles together data and hides it from the world.
+
+- Virtual function to achieve runtime polymorphism.
+- Overriding is resolved in runtime
+- Overloading resolves in compile time.
+
+- A destructor is a class method which is automatically invoked when the object of the class is destroyed. The destructor recovers heap space allocated, closes space and databse connections of the object.
+
+- An exception is a notification that interrupts normal execution of program. It provides a pattern to the error and transfers it for exception handling. The state of program is saved as soon as an exception is raised.
+  - **Exception handling** is an OOPs concept to handle errors and place a centralised mechanism to resolve them once thrown and caught.
+
+- An error is something which shouldn't happen in a program and an exception is a condition that program can catch.
