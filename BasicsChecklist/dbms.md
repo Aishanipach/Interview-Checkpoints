@@ -35,7 +35,10 @@
 
 - Normalisation is by dividing data in different tables, while denormalisation using for example, JOIN IN, does the opposite.
 
-- Normalisation techniques are: **1NF** non repeating groups within a row, **2NF** where columns are dependent on whole primary key & **3NF** Solely dependent on primary key.
+- Normalisation techniques are: 
+    -  **1NF** relation is when all the entities are unique
+    -   **2NF** where is 1NF & nonkey attributes are fully dependent on primary key 
+    -   **3NF** where 2NF & there is no transitive relation of non-key attributes with primary key.
 
 - An entity set is represented by a rectangle in a diagram.
 
