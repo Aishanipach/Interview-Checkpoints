@@ -75,7 +75,9 @@ X->Y, Y->Z and Xis not ->Y.
 
 - **Data independence** means data is independent of of data retrieval algorithms or structure.
 
-
+- A view is a virtual table which doesn't have it's own data but picks up data from one or more underlying tables
+    - It generates output without wasting space & data access is restricted so it adds to data integrity
+    - It becomes irrelevant if the table related to it is dropped & it takes up much more space to create view for large db
 
 ## SQL QUERIES
 
@@ -116,4 +118,3 @@ X->Y, Y->Z and Xis not ->Y.
 - Write an SQL query to show the top n (say 10) records of a table.
     ``` SELECT * FROM worker ORDER BY Salary LIMIT 10 ```
 
-- 34
