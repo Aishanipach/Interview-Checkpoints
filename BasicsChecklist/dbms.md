@@ -79,6 +79,9 @@ X->Y, Y->Z and Xis not ->Y.
     - It generates output without wasting space & data access is restricted so it adds to data integrity
     - It becomes irrelevant if the table related to it is dropped & it takes up much more space to create view for large db
 
+- In fact, the ANSI / ISO SQL standard defines four levels of transaction isolation: Read Uncommitted, Read Committed, Repeatable Read and Serializable.
+SERIALIZABLE isolation guarantees that even though transactions may execute in parallel, the result is the same as if they had executed one at a time, without any concurrency. This ensures data correctness by preventing all "anomalies" allowed by weaker isolation levels.
+
 ## SQL QUERIES
 
 - UNION: Combines the result of two or more SELECT queries with distinct values 
@@ -117,4 +120,5 @@ X->Y, Y->Z and Xis not ->Y.
     ``` SELECT * INTO WClone FROM Worker WHERE 1=0 ```
 - Write an SQL query to show the top n (say 10) records of a table.
     ``` SELECT * FROM worker ORDER BY Salary LIMIT 10 ```
+
 
