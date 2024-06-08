@@ -8,52 +8,47 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+
+// |1|-> |2|-> |4|
+// |1|-> |3|-> |5|
+
+// |dummy||temp|
+
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        if(list1 == NULL)
-            return list2;
-		
-		// if list2 happen to be NULL
-		// we will simply return list1.
-        if(list2 == NULL)
-            return list1;
-        
-        
-        ListNode* ptr=list1;
-        
-        if(list1->val>=list2->val){
-           ptr = list2;
-           list2 = list2 -> next;
-        }
-        
-        else{
-            
-            list1=list1->next;
-        }
-        
-         ListNode *curr = ptr;
-        // till one of the list doesn't reaches NULL
-        while(list1 &&  list2)
-        {
-            if(list1 -> val < list2 -> val){
-                curr->next = list1;
-                list1 = list1 -> next;
+       
+ ListNode* dummy= new ListNode();
+  ListNode* temp= dummy;
+        while(list1!=nullptr && list2!=nullptr){
+            cout<<"CHEDD"<<list1->val<<list2->val;
+            if(list1->val <= list2->val){
+                temp-> next= list1;
+                temp=list1;
+                list1=list1->next;
+                }
+            else {
+                temp-> next= list2;
+                temp=list2;
+                list2=list2->next;
             }
-            else{
-                curr->next = list2;
-                list2 = list2 -> next;
-            }
-            curr = curr -> next;
-                
-        }
-		
-		// adding remaining elements of bigger list.
-        if(!list1)
-            curr -> next = list2;
-        else
-            curr -> next = list1;
             
-        return ptr;
+        }
+
+        if(list1!=nullptr) {
+    
+            temp->next=list1;
+
+        }
+        if(list2!=nullptr){
+        
+            temp->next=list2;
+        }
+
+        return dummy-> next;
+        
+       
+
     }
 };
