@@ -1,0 +1,16 @@
+### Blueprint for for definition of an object
+```python
+class Student: 
+  def __init__(self):
+    self.name="Default"
+ ``` 
+
+ - def __init__() is the constructor which gets revoked for the first time everytime a new object is declared
+
+- def __init__() default constructor but def __init__(self, name, class, section): parametrized constructor
+- Attributes are object properties
+- Instance attributes are unique to all the onjects 
+  ```python
+      class Student:
+      def __init__:
+          1. 
