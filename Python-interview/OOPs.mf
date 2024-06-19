@@ -9,8 +9,11 @@ class Student:
 
 - def __init__() default constructor but def __init__(self, name, class, section): parametrized constructor
 - Attributes are object properties
-- Instance attributes are unique to all the onjects 
+- Instance attributes are unique to all the objects 
   ```python
       class Student:
       def __init__:
-          1. 
+  ```
+- A class name is camelcase, class SubClassHere
+- Abstract class is designed just to be a base class
+- USe special methods like __str__ & __len__ to use with objects
