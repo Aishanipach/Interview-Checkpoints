@@ -17,3 +17,5 @@ visual representation of different methods and algos over them:
 ## Notes: 
 
 1. A Binary Search Tree (BST) is a tree in which the values of all nodes in the left subtree of a node are less than the node's value, and the values of all nodes in the right subtree are greater than the node's value. Additionally, every subtree of a BST must also satisfy this property, meaning the "less than" or "greater than" condition is valid for all nodes in the tree, not just the root.
+
+2. An inorder traversal of BST gives sorted values.
