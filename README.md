@@ -1,4 +1,3 @@
-#### Consistency Run 2023🤞:
 https://leetcode.com/Aish_pach/
 
 # C++ Code Dump 📑️
